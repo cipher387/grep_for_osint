@@ -1,5 +1,14 @@
 GREP FOR OSINT is a set of very simple shell scripts that will help you quickly analyze a text or a folder with files for data useful for investigation (phone numbers, bank card numbers, URLs, emails and nicknames).
 
+-----------------------------------
+
+You can try this repository directly in your browser (with Gitpod Workspace Snapshot) 
+
+https://gitpod.io#snapshot/95107ac0-d022-45d1-a3b1-48b4d5e17b7b
+
+or simply download the repository to your computer
+------------------------
+
 Simply replace the text in the "text_for_analyze.txt" file with your text and run one of the .sh files whose name ends in "from_text".
 
 For example:
