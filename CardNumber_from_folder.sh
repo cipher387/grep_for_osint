@@ -1,0 +1,2 @@
+resultfile="result_phone_number_from_folder_"$(date "+%Y.%m.%d-%H.%M.%S")".txt"
+grep -r  '\([345]\{1\}[0-9]\{3\}\|6011\)\{1\}[ -]\?[0-9]\{4\}[ -]\?[0-9]\{2\}[-]\?[0-9]\{2\}[ -]\?[0-9]\{1,4\}' files_for_analyze >$resultfile
