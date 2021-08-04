@@ -4,7 +4,7 @@ GREP FOR OSINT is a set of very simple shell scripts that will help you quickly 
 
 You can try this repository directly in your browser (with Gitpod Workspace Snapshot) 
 
-https://gitpod.io#snapshot/fe7b48d8-f366-4cb1-add9-974932025cbd
+https://gitpod.io#snapshot/dd17f163-aa47-4ccd-bbf7-110640cdfc09
 
 or simply download the repository to your computer
 ------------------------
@@ -20,6 +20,11 @@ Or replace the files in the "files_for_analyze" folder with your own and run one
 The result will be saved in a new text file with an appropriate name (for example, result_email_from_text_2021.08.01-16.47.52).
 
 -------------------------------
+
+
+In files tags_content_from_folder.sh, tags_content_from_html.sh, Keyword_from_folder.sh, Keyword_from_text.sh  you don't have to change anything. You can just run them and enter the desired values directly into the command line after a prompt from the script.
+
+------------------------------
 
 *Warning*
 
