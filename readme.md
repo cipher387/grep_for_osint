@@ -13,7 +13,7 @@ Simply replace the text in the "text_for_analyze.txt" file with your text and ru
 
 For example:
 
-bash Email_from_text.sh
+`bash Email_from_text.sh`
 
 Or replace the files in the "files_for_analyze" folder with your own and run one of the .sh files ending in "from_folder".
 
@@ -36,20 +36,20 @@ It's possible to use this tool for analyze html files from WayBack Machine (web.
 Make sure you have Python installed on your computer or install it.
 
 Next launch
-
-pip install waybackpack
+`
+pip install waybackpack`
 
 Get list of website's saved pages:
-
-waybackpack http://litsey623.ru/ --list
+`
+waybackpack http://litsey623.ru/ --list`
 
 Download pages version, saved during period between 2010-2011
 
-waybackpack http://litsey623.ru/ -d files_for_analyze --from-date 2010 --to-date 2011
+`waybackpack http://litsey623.ru/ -d files_for_analyze --from-date 2010 --to-date 2011`
 
 For extracting emails from saved pages launch:
 
-bash Email_from_folder.sh
+`bash Email_from_folder.sh`
 
 View file:
 
