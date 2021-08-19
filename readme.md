@@ -31,5 +31,36 @@ In files tags_content_from_folder.sh, tags_content_from_html.sh, Keyword_from_fo
 With large amounts of text the grep command can take a very, very long time.
 
 -------------------------------------------------------
+It's possible to use this tool for analyze html files from WayBack Machine (web.archive.org):
+
+Make sure you have Python installed on your computer or install it.
+
+Next launch
+
+pip install waybackpack
+
+Get list of website's saved pages:
+
+waybackpack http://litsey623.ru/ --list
+
+Download pages version, saved during period between 2010-2011
+
+waybackpack http://litsey623.ru/ -d files_for_analyze --from-date 2010 --to-date 2011
+
+For extracting emails from saved pages launch:
+
+bash Email_from_folder.sh
+
+View file:
+
+result_email_from_folder_(current_date).txt 
+
+
+
+(Analogously, it is possible to extract keywords, phone numbers, URL etc)
+
+
+
+---------------------------------------------
 Follow updates on this tool on 
 <a target="_blank" href="https://twitter.com/cyb_detective" title="My Twitter"><img src="https://img.shields.io/badge/-@cyb_detective-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/cyb_detective"></a>
