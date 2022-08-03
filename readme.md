@@ -1,13 +1,18 @@
+
+<h2>GREP FOR OSINT</h2>
+
+
 GREP FOR OSINT is a set of very simple shell scripts that will help you quickly analyze a text or a folder with files for data useful for investigation (phone numbers, bank card numbers, URLs, emails and nicknames).
 
------------------------------------
 
-You can try this repository directly in your browser (with Gitpod Workspace Snapshot) 
 
-https://gitpod.io#snapshot/dd17f163-aa47-4ccd-bbf7-110640cdfc09
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/cipher387/grep_for_osint">
+ 
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/cipher387/grep_for_osint">
 
-or simply download the repository to your computer
-------------------------
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+    <p align="center">
+
 
 Simply replace the text in the "text_for_analyze.txt" file with your text and run one of the .sh files whose name ends in "from_text".
 
