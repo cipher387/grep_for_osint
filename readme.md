@@ -1,4 +1,12 @@
 
+This repository is no longer supported. I now use Nuclei and templates for the same purpose https://github.com/cipher387/juicyinfo-nuclei-templates
+
+
+
+
+
+
+
 <img alt="GitHub stars" src="https://img.shields.io/github/stars/cipher387/grep_for_osint">
  
 <img alt="GitHub forks" src="https://img.shields.io/github/forks/cipher387/grep_for_osint">
